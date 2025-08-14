@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_934f0af291fe28dfe4684d70bd362607 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_934f0af291fe28dfe4684d70bd362607" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_934f0af291fe28dfe4684d70bd362607 = L.map(
+                "map_934f0af291fe28dfe4684d70bd362607",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_178a5802cf3099c253ce2df5d2fe313e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var marker_5a4675433b06749d652bab26ae9863b2 = L.marker(
+                [1.2843, 103.8439],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_44b3476f8b34a6effae4074beb7cfc6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a4675433b06749d652bab26ae9863b2.setIcon(icon_44b3476f8b34a6effae4074beb7cfc6a);
+        
+    
+        var popup_7738492997e0b3b528532c6214e8cf95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57070f4f2d1b952a02c3752fd38a2cce = $(`<div id="html_57070f4f2d1b952a02c3752fd38a2cce" style="width: 100.0%; height: 100.0%;">牛車水 Chinatown Day 1 - 飯店/起點</div>`)[0];
+            popup_7738492997e0b3b528532c6214e8cf95.setContent(html_57070f4f2d1b952a02c3752fd38a2cce);
+        
+
+        marker_5a4675433b06749d652bab26ae9863b2.bindPopup(popup_7738492997e0b3b528532c6214e8cf95)
+        ;
+
+        
+    
+    
+            marker_5a4675433b06749d652bab26ae9863b2.bindTooltip(
+                `<div>
+                     牛車水 Chinatown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_741ea72fb3732468fd46ea280b2f5420 = L.marker(
+                [1.2804, 103.8501],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_faea4dca1c09ae40d2f21e4d7d9dc0e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_741ea72fb3732468fd46ea280b2f5420.setIcon(icon_faea4dca1c09ae40d2f21e4d7d9dc0e5);
+        
+    
+        var popup_2c238e4ab051aa43a59ae0616ab1ac47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eef4994adb0be77b82c2e804677fb4c5 = $(`<div id="html_eef4994adb0be77b82c2e804677fb4c5" style="width: 100.0%; height: 100.0%;">Lau Pa Sat 沙爹街 Day 1 - 晚餐</div>`)[0];
+            popup_2c238e4ab051aa43a59ae0616ab1ac47.setContent(html_eef4994adb0be77b82c2e804677fb4c5);
+        
+
+        marker_741ea72fb3732468fd46ea280b2f5420.bindPopup(popup_2c238e4ab051aa43a59ae0616ab1ac47)
+        ;
+
+        
+    
+    
+            marker_741ea72fb3732468fd46ea280b2f5420.bindTooltip(
+                `<div>
+                     Lau Pa Sat 沙爹街
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd2b28983145aa7ec047c9a9e948f860 = L.marker(
+                [1.2855, 103.861],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_d370be7540a2b9a30aeb7760ed87b230 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd2b28983145aa7ec047c9a9e948f860.setIcon(icon_d370be7540a2b9a30aeb7760ed87b230);
+        
+    
+        var popup_6b23de8480829e629aa0b526fa447f0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d75537778ad3556d2eaccf4f3052838 = $(`<div id="html_2d75537778ad3556d2eaccf4f3052838" style="width: 100.0%; height: 100.0%;">濱海灣金沙 Spectra Day 1 - 水舞燈光秀</div>`)[0];
+            popup_6b23de8480829e629aa0b526fa447f0e.setContent(html_2d75537778ad3556d2eaccf4f3052838);
+        
+
+        marker_fd2b28983145aa7ec047c9a9e948f860.bindPopup(popup_6b23de8480829e629aa0b526fa447f0e)
+        ;
+
+        
+    
+    
+            marker_fd2b28983145aa7ec047c9a9e948f860.bindTooltip(
+                `<div>
+                     濱海灣金沙 Spectra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc39e02c27bacde7a04c0fe4a005a1ea = L.marker(
+                [1.2837, 103.8451],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_50d46a1208dc45847caa1e6df7902f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc39e02c27bacde7a04c0fe4a005a1ea.setIcon(icon_50d46a1208dc45847caa1e6df7902f93);
+        
+    
+        var popup_593025e83613019982862ba8f4a2da0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93b83517cf27ad4296a9240c6d6faf9a = $(`<div id="html_93b83517cf27ad4296a9240c6d6faf9a" style="width: 100.0%; height: 100.0%;">Ya Kun Kaya Toast (Chinatown) Day 2 - 早餐</div>`)[0];
+            popup_593025e83613019982862ba8f4a2da0a.setContent(html_93b83517cf27ad4296a9240c6d6faf9a);
+        
+
+        marker_cc39e02c27bacde7a04c0fe4a005a1ea.bindPopup(popup_593025e83613019982862ba8f4a2da0a)
+        ;
+
+        
+    
+    
+            marker_cc39e02c27bacde7a04c0fe4a005a1ea.bindTooltip(
+                `<div>
+                     Ya Kun Kaya Toast (Chinatown)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c28cb4d130cd1e070bcb992888abe7e = L.marker(
+                [1.4043, 103.793],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_330e5695a3e2d670fdff96bdca1e33c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c28cb4d130cd1e070bcb992888abe7e.setIcon(icon_330e5695a3e2d670fdff96bdca1e33c7);
+        
+    
+        var popup_4c250afba9c726e36159373a93f7a076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d99928e7f14b5ebb6b71536f3b4b6de = $(`<div id="html_8d99928e7f14b5ebb6b71536f3b4b6de" style="width: 100.0%; height: 100.0%;">新加坡動物園 Day 2 - 白天行程</div>`)[0];
+            popup_4c250afba9c726e36159373a93f7a076.setContent(html_8d99928e7f14b5ebb6b71536f3b4b6de);
+        
+
+        marker_2c28cb4d130cd1e070bcb992888abe7e.bindPopup(popup_4c250afba9c726e36159373a93f7a076)
+        ;
+
+        
+    
+    
+            marker_2c28cb4d130cd1e070bcb992888abe7e.bindTooltip(
+                `<div>
+                     新加坡動物園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c92f85ee1dc2aa9790bfbbda90eb53c = L.marker(
+                [1.2644, 103.8223],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_06c0d6dcaad92553590e2448e734f0e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c92f85ee1dc2aa9790bfbbda90eb53c.setIcon(icon_06c0d6dcaad92553590e2448e734f0e4);
+        
+    
+        var popup_44023f1879fc35d5cfa1ea724d8deb80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1985a1ac322c0549efe1b59afad3e490 = $(`<div id="html_1985a1ac322c0549efe1b59afad3e490" style="width: 100.0%; height: 100.0%;">VivoCity Day 2 - 傍晚</div>`)[0];
+            popup_44023f1879fc35d5cfa1ea724d8deb80.setContent(html_1985a1ac322c0549efe1b59afad3e490);
+        
+
+        marker_1c92f85ee1dc2aa9790bfbbda90eb53c.bindPopup(popup_44023f1879fc35d5cfa1ea724d8deb80)
+        ;
+
+        
+    
+    
+            marker_1c92f85ee1dc2aa9790bfbbda90eb53c.bindTooltip(
+                `<div>
+                     VivoCity
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32784a3e1a1e3676ae2d196f8154b120 = L.marker(
+                [1.2494, 103.8213],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_1a25cc6dd0d10b1bc18bd72639f8e0f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_32784a3e1a1e3676ae2d196f8154b120.setIcon(icon_1a25cc6dd0d10b1bc18bd72639f8e0f8);
+        
+    
+        var popup_bcedc068cd7c3aded41e5a59ef810c80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55560839d12fa46c4d0903c6ec597334 = $(`<div id="html_55560839d12fa46c4d0903c6ec597334" style="width: 100.0%; height: 100.0%;">聖淘沙 Wings of Time Day 2 - 煙火水舞秀</div>`)[0];
+            popup_bcedc068cd7c3aded41e5a59ef810c80.setContent(html_55560839d12fa46c4d0903c6ec597334);
+        
+
+        marker_32784a3e1a1e3676ae2d196f8154b120.bindPopup(popup_bcedc068cd7c3aded41e5a59ef810c80)
+        ;
+
+        
+    
+    
+            marker_32784a3e1a1e3676ae2d196f8154b120.bindTooltip(
+                `<div>
+                     聖淘沙 Wings of Time
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fa9492bf2b28ec4be9aa973d99ee8b6 = L.marker(
+                [1.3138, 103.8159],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_bd1d57ae334744b0f7dfbd1d61e7b9e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1fa9492bf2b28ec4be9aa973d99ee8b6.setIcon(icon_bd1d57ae334744b0f7dfbd1d61e7b9e5);
+        
+    
+        var popup_01c392f12ec05e8190dd351862434e5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23d94b509039eaa23ba5a71e4e8147e0 = $(`<div id="html_23d94b509039eaa23ba5a71e4e8147e0" style="width: 100.0%; height: 100.0%;">新加坡植物園 Day 3 - 上午</div>`)[0];
+            popup_01c392f12ec05e8190dd351862434e5c.setContent(html_23d94b509039eaa23ba5a71e4e8147e0);
+        
+
+        marker_1fa9492bf2b28ec4be9aa973d99ee8b6.bindPopup(popup_01c392f12ec05e8190dd351862434e5c)
+        ;
+
+        
+    
+    
+            marker_1fa9492bf2b28ec4be9aa973d99ee8b6.bindTooltip(
+                `<div>
+                     新加坡植物園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6b64e18c153cb4f7455906b4e30b29b = L.marker(
+                [1.3065, 103.9052],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_5b93bb86c7077d52752aae72064344bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c6b64e18c153cb4f7455906b4e30b29b.setIcon(icon_5b93bb86c7077d52752aae72064344bc);
+        
+    
+        var popup_d55506549e721276dde93246b7175393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e3f76830c0922ceae9ecea3df7ecfc1 = $(`<div id="html_6e3f76830c0922ceae9ecea3df7ecfc1" style="width: 100.0%; height: 100.0%;">328 Katong Laksa Day 3 - 午餐</div>`)[0];
+            popup_d55506549e721276dde93246b7175393.setContent(html_6e3f76830c0922ceae9ecea3df7ecfc1);
+        
+
+        marker_c6b64e18c153cb4f7455906b4e30b29b.bindPopup(popup_d55506549e721276dde93246b7175393)
+        ;
+
+        
+    
+    
+            marker_c6b64e18c153cb4f7455906b4e30b29b.bindTooltip(
+                `<div>
+                     328 Katong Laksa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26fbdc067bc35b8c23af00a779a89660 = L.marker(
+                [1.301, 103.9116],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_b033e8ccddcdc2d93264d162a20adb7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26fbdc067bc35b8c23af00a779a89660.setIcon(icon_b033e8ccddcdc2d93264d162a20adb7d);
+        
+    
+        var popup_501e8f8d0a6bbcd156593ccb3e54226e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45d52aa12b6719b9b50e7d5e7a6d4691 = $(`<div id="html_45d52aa12b6719b9b50e7d5e7a6d4691" style="width: 100.0%; height: 100.0%;">JUMBO Seafood (East Coast) Day 3 - 晚餐</div>`)[0];
+            popup_501e8f8d0a6bbcd156593ccb3e54226e.setContent(html_45d52aa12b6719b9b50e7d5e7a6d4691);
+        
+
+        marker_26fbdc067bc35b8c23af00a779a89660.bindPopup(popup_501e8f8d0a6bbcd156593ccb3e54226e)
+        ;
+
+        
+    
+    
+            marker_26fbdc067bc35b8c23af00a779a89660.bindTooltip(
+                `<div>
+                     JUMBO Seafood (East Coast)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73560ae4d83f0590193d5a504be3a21c = L.marker(
+                [1.2816, 103.8636],
+                {}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var icon_9d6a24b044471b0ce6d943067f3f5bca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73560ae4d83f0590193d5a504be3a21c.setIcon(icon_9d6a24b044471b0ce6d943067f3f5bca);
+        
+    
+        var popup_02205e0dd0668236cf6afc7b2b7cace1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf934cdb2993d2b181c1d74b7469a760 = $(`<div id="html_cf934cdb2993d2b181c1d74b7469a760" style="width: 100.0%; height: 100.0%;">濱海灣花園 Supertree Grove Day 3 - 燈光秀</div>`)[0];
+            popup_02205e0dd0668236cf6afc7b2b7cace1.setContent(html_cf934cdb2993d2b181c1d74b7469a760);
+        
+
+        marker_73560ae4d83f0590193d5a504be3a21c.bindPopup(popup_02205e0dd0668236cf6afc7b2b7cace1)
+        ;
+
+        
+    
+    
+            marker_73560ae4d83f0590193d5a504be3a21c.bindTooltip(
+                `<div>
+                     濱海灣花園 Supertree Grove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7411073609b643e3124ae92876b05fd0 = L.polyline(
+                [[1.2843, 103.8439], [1.2804, 103.8501], [1.2855, 103.861]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var poly_line_4abcb81b81b9c87c814cf6231111c6ee = L.polyline(
+                [[1.2837, 103.8451], [1.4043, 103.793], [1.2644, 103.8223], [1.2494, 103.8213]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+    
+            var poly_line_a3549b3639fb8e14a12c30e1a21fde9f = L.polyline(
+                [[1.3138, 103.8159], [1.3065, 103.9052], [1.301, 103.9116], [1.2816, 103.8636]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_934f0af291fe28dfe4684d70bd362607);
+        
+</script>
+</html>
